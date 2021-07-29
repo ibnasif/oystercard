@@ -4,7 +4,7 @@ class Oystercard
   MAXIMUM_BALANCE = 50
   MINIMUM_BALANCE = 1
 
-  def initialize
+  def initialize 
     @balance = 0 
     @entry_station = nil
     @exit_station = nil
@@ -61,3 +61,5 @@ class Oystercard
 
     
 end
+
+

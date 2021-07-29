@@ -30,6 +30,7 @@ describe Oystercard do
   #end
 
   it "registers touch in" do
+    
     subject.top_up(10)
     subject.touch_in(entry_station)
     expect(subject.in_journey?).to eq true
